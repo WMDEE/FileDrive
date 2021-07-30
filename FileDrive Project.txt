@@ -1,0 +1,33 @@
+﻿Git: 
+      git clone https://github.com/WMDEE/FileDrive.git
+      git pull
+      git add "Your Filename Here without quotes" --Can use "*" to commit all files
+      git commit -m "Your Commit Message"
+      git push
+      git checkout "your Branch Name"
+Client: 
+        C++ 
+        OpenGL
+        Windows
+        /Var/User/Home -> FileDrive/root
+
+
+* Commands
+   * Set Directory
+   * View Directory
+   * Download Directory
+      * Open File Explorer
+   * Add to Directory
+      * Open File Explorer
+
+
+Server: 
+        C++
+        Linux
+* Commands
+   * Specify File Directory
+      * During initial setup
+   * Report File Directory
+      * After client communication request
+   * Receive File when given
+   * Send File when requested
