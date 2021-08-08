@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/sf_Projects/FileDrive/Backend/main.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+GL/glew.h
+-
+GL/glfw3.h
+-
+glm/glm.hpp
+-
+
